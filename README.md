@@ -2,4 +2,10 @@
 
 Projeto Hackathon dos Portos
 
-Portal de acesso para o funcionário se instruir com cursos online, fornecidos pela empresa e gastar o seu tempo ocioso enquanto espera seu turno acabar.
+Portal de cursos para o funcionário estudar dentro do seu tempo ocioso.
+
+Equipe:
+Davi Bernardo
+Felipe Barreira
+Guilherme Conceição
+Karla Serafim
