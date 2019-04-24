@@ -58,7 +58,7 @@ h1 {
     margin-bottom: 21px;
 }
 
-.login input[type="text"], input[type="password"] {
+.login input[type="email"], input[type="password"] {
     border: none;
     border-bottom: 1px solid white;
     background: transparent;

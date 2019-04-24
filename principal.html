@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Plataforma BTP</title>
+  
+
+  <!-- GoogleFonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<!-- SCRIPTS FIREBASE-->
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script src="js/app.js"></script>
+<script src="js/authentication.js"></script>
+
+</head>
+
+<body>
+
+  <section class="back" id="title">
+    <div class="container-fluide">
+
+      
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <img class="image-test" src="images/logoBTP1.png">
+          
+        <a class="navbar-brand" href="">Terminal Portuário</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contato</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">informação</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Serviços</a> 
+            </li>
+            
+          </ul>
+          
+        </div>
+        
+      </nav>
+
+
+      <!-- Title -->
+      <div id="infoUser"> <h5>Usuário Ativo</h5>
+      <input type="button" name="botao" value="Encerrar Sessão" id="btnEncerrar">
+    </div>
+    
+</div>
+          
+        <div class="col-lg-6 mr-auto">
+
+          <h2 class="big-heading"> Para termos sucesso, é preciso primeiro acreditarmos.</h2>
+        </div>
+        
+
+        <div class="col-lg-6 mr-auto">
+        
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">  
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>  
+          <h3 ><a href="#seg">Segurança</a></h3> 
+        </div>
+
+         
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i> 
+          <h3 ><a href="#dev">Dev Pessoal</a></h3>
+        </div>
+
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-male fa-4x"></i>
+          <h3>  <a href="#obrig">Obrigatórios </a></h3>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="true">
+      <div class="carousel-inner">
+
+        <h2 class="testimonial-text1">Cursos que em breve estarão disponiveis:</h2>
+
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Agente de risco de segurança - carga suspensa</h2>
+          <div class="feature-box1 col-lg-4"></div>
+          <i class="icon1 fas fa-exclamation-triangle fa-4x"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">código de conduta.</h2>
+          <div class="feature-box1 col-lg-4"></div>
+          <i class="icon1 fas fa-user-secret fa-4x"></i>
+        </div>
+
+        <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">inteligência emocional.</h2>
+            <div class="feature-box1 col-lg-4"></div>
+          <i class="icon1 fas fa-brain fa-4x"></i>
+          </div>
+
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+    
+
+  </section>
+
+
+  <!-- Press -->
+
+ 
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+
+
+    <h2 id="seg" >Segurança</h2>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="feature-title">Brigada de incêndio</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Video</h2>
+            <p>Este curso inclui</p>
+            <p> 5 horas divididas em 4 videos </p>
+            <p>Desenvolvimento</p>
+            <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="feature-title">NR06</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Video</h2>
+            <p>Este curso inclui</p>
+            <p>7 horas divididas em 5 videos</p>
+            <p>Ideias para alavancar a carreira</p>
+            <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="feature-title">NR35 Trabalho em Equipe</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Video</h2>
+            <p>Este curso inclui</p>
+            <p>10 horas dividida em 5 videos</p>
+            <p>entendimento basico da área</p>
+            <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+    
+    
+
+  </section>
+
+  <section class="colored-section" id="colored">
+  <h1 id="dev">Dev Pessoal</h1>
+
+  <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="feature-title">Gestão do conhecimento</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Video</h2>
+            <p>Este curso inclui</p>
+            <p> 5 horas divididas em 4 videos </p>
+            <p>Desenvolvimento</p>
+            <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Gestão de Tempo</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Video</h2>
+              <p>Este curso inclui</p>
+              <p>7 horas divididas em 5 videos</p>
+              <p>Ideias para alavancar a carreira</p>
+              <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+            </div>
+  
+  
+          </div>
+        </div>
+  
+  
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Matemática Financeira</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Video</h2>
+              <p>Este curso inclui</p>
+              <p>10 horas dividida em 5 videos</p>
+              <p>entendimento basico da área</p>
+              <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+            </div>
+  
+  
+          </div>
+  
+        </div>
+      </div>
+      
+
+
+  </section>
+
+  <section class="white-section" id="colored">
+    <h1 id="obrig">Obrigatorio</h1> 
+    <div class="row">
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Bom senso </h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Video</h2>
+              <p>Este curso inclui</p>
+              <p> 5 horas divididas em 4 videos </p>
+              <p>Desenvolvimento</p>
+              <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+            </div>
+  
+  
+          </div>
+        </div>
+  
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="feature-title">Segurança da Informação</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Video</h2>
+                <p>Este curso inclui</p>
+                <p>7 horas divididas em 5 videos</p>
+                <p>Ideias para alavancar a carreira</p>
+                <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+              </div>
+    
+    
+            </div>
+          </div>
+    
+    
+          <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="feature-title">Responsabiliade Socioambiental</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Video</h2>
+                <p>Este curso inclui</p>
+                <p>10 horas dividida em 5 videos</p>
+                <p>entendimento basico da área</p>
+                <button type="button" class="btn btn-danger btn-lg btn-block">inscreva-se</button>
+              </div>
+    
+    
+            </div>
+    
+          </div>
+        </div>
+
+    </section>
+
+
+  <!-- Footer -->
+
+  <section class="colored-section" id="cta">
+    
+      
+      
+        <img class="title-fotter" src="images/AE.png" alt="iphone-mockup">
+        <img class="title-fotter" src="images/iso.png" alt="iphone-mockup">
+      
+ 
+        <div class="container-social">
+
+
+            <a href="#"> <i class="social-icon fab fa-twitter download-footer"></i></a>
+            <a href="#"> <i class="social-icon fab fa-facebook-f download-footer"></i></a>
+            <a href="#"> <i class="social-icon fab fa-instagram download-footer"></i></a>
+            <a href="#"> <i class="social-icon fas fa-envelope download-footer"></i></a>  
+            
+      
+          </div>
+  </section>
+
+
+
+</body>
+
+</html>

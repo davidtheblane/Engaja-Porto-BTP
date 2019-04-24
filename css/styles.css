@@ -20,6 +20,31 @@ p {
 	background-size: 100%;
 }
 
+
+#btnEncerrar{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: gray;
+    background: #fff;
+    border-radius: 10px;
+	transition: 0.2s;
+	font-family: Montserrat;
+	font-size: 10px;
+}
+
+
+#infoUser{
+	width: 320px;
+    height: 40px;
+    color: white;
+	float: right;
+	border: none;
+	margin-right: 20px;
+   
+}
+
+
 .conteiner-info {
 	width: 2150px;
     height: 1550x;
@@ -28,6 +53,10 @@ p {
 	position: right;
 	padding: -3% 15%;
 }
+
+
+
+
 
 .big-heading {
 	color: rgb(255, 255, 255);
@@ -39,6 +68,7 @@ p {
 	webkit-text-stroke-width: 2px;
 	webkit-text-stroke-color: #000;
 	font-size: 3em;
+	display: inline-block;
 }
 
 section-heading {
@@ -71,7 +101,7 @@ section-heading {
 .colored-section {
 	background-color: #04B404;
 	color: #fff;
-	margin-padding: 20px; 
+	margin: 20px; 
 }
 
 h2,h3{
@@ -202,6 +232,7 @@ h2,h3{
 	color: #fff;
 	font-size: 3rem;
 	line-height: 1.5;
+}
 
 .testimonial-text {
 	color: #fff;
@@ -273,16 +304,5 @@ h2,h3{
 	width: 15%;
 	left: 60%;
 	margin: 0 5%;
-	
-
-}
-.conteiner-info {
-    width: 320px;
-    height: 100x;
-    color: #fff;
-    top: 80%;
-    left: 70%;
-    position: absolute;
-   
 }
 
