@@ -9,3 +9,11 @@ Davi Bernardo
 Felipe Barreira
 Guilherme Conceição
 Karla Serafim
+
+- Recursos utilizados -
+HTML, CSS, Javascript e Autenticação no Firebase.
+
+- Em implementação -
+Conteúdo de exemplo(vídeos e links)
+Informações do usuário logado
+Integração com banco de dados em Real Time
