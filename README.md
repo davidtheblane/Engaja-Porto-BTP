@@ -10,11 +10,11 @@ Felipe Barreira -
 Guilherme Conceição -
 Karla Serafim.
 
-- Recursos utilizados -
-HTML, CSS, Javascript e Autenticação no Firebase.
+| Recursos utilizados |{
+HTML, CSS, Javascript e Autenticação no Firebase};
 
-- Em implementação -
-Melhorias visuais
-Conteúdo de exemplo(vídeos e links)
-Informações do usuário logado
-Integração com banco de dados em Real Time
+| Em implementação |{
+Melhorias visuais, 
+Conteúdo de exemplo(vídeos e links), 
+Informações do usuário logado, 
+Integração com banco de dados em Real Time}
