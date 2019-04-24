@@ -17,4 +17,4 @@ HTML, CSS, Javascript e Autenticação no Firebase};
 Melhorias visuais, 
 Conteúdo de exemplo(vídeos e links), 
 Informações do usuário logado, 
-Integração com banco de dados em Real Time}
+Integração com banco de dados em Real Time};
