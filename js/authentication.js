@@ -1,7 +1,8 @@
 var btnLogin = document.getElementById('btnLogin');
 var inputEmail = document.getElementById('inputEmail');
 var inputPassword = document.getElementById('inputPassword');
-var btnEncerrar = document.getElementById('btnEncerrar');
+var btnEncerrar = document.getElementById('btnEncerrar')
+
 
 btnLogin.addEventListener('click', function(){
 
@@ -57,11 +58,10 @@ observador();
 
 function showInfo() {
     var infoUser = document.getElementById('infoUser');
-    //infoUser.innerHTML = `<p>Usuário Ativo</p> <button onclick="encerrar()">Encerrar</button>`;
     }
 
  
-btnLogin.addEventListener('click', function(){
+btnEncerrar.addEventListener('click', function(){
   firebase.auth().signOut()
   .then(function(){
     console.log('Saindo...')
