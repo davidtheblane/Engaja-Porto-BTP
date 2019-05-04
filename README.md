@@ -5,16 +5,16 @@
 Portal de cursos para os funcionários estudarem no tempo ocioso de serviço.
 <br>
 <h4>Equipe:</h4>
-Davi Bernardo -
+(Davi Bernardo -
 Felipe Barreira -
 Guilherme Conceição -
-Karla Serafim.
+Karla Serafim.);
 <br>
-<h4>Recursos utilizados</h4>{
-HTML, CSS, Javascript e Autenticação no Firebase
+<h4>Recursos utilizados:</h4>
+(HTML, CSS, Javascript e Autenticação no Firebase);
 <br>
-<h4>Em implementação</h4>{
-Melhorias visuais, 
+<h4>Em implementação:</h4>{
+(Melhorias visuais, 
 Conteúdo de exemplo(vídeos e links), 
 Informações do usuário logado, 
-Integração com banco de dados em Real Time
+Integração com banco de dados em Real Time);
