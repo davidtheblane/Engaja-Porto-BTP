@@ -1,21 +1,21 @@
 # Engaja-Porto-BTP
 
-Projeto Hackathon dos Portos
+<h3>Projeto Hackathon dos Portos</h3>
 <br>
 Portal de cursos para o funcionário estudar dentro do seu tempo ocioso.
 <br>
-<href src="davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Engaja Porto</h3></href> <br><br>
+<href src="https://www.davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Engaja Porto</h3></href> <br><br>
 
-Equipe:
+<h4>Equipe:</h4>
 Davi Bernardo -
 Felipe Barreira -
 Guilherme Conceição -
 Karla Serafim.
 <br>
-| Recursos utilizados |{
+<h4>Recursos utilizados</h4>{
 HTML, CSS, Javascript e Autenticação no Firebase};
 <br>
-| Em implementação |{
+<h4>Em implementação</h4>{
 Melhorias visuais, 
 Conteúdo de exemplo(vídeos e links), 
 Informações do usuário logado, 
