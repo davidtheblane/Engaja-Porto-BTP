@@ -5,7 +5,7 @@
 Portal de cursos para os funcionários estudarem no tempo ocioso de serviço.
 <br>
 
-<a href="https://davidtheblane.github.io/Engaja-Porto-BTP/" target="blank><h3>Engaja Porto</h3></a> <br>
+<a href="https://davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Engaja Porto</h3></a> <br>
 
 <h4>Equipe:</h4>
 Davi Bernardo -
