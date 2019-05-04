@@ -13,7 +13,7 @@ Karla Serafim.);
 <h4>Recursos utilizados:</h4>
 (HTML, CSS, Javascript e Autenticação no Firebase);
 <br>
-<h4>Em implementação:</h4>{
+<h4>Em implementação:</h4>
 (Melhorias visuais, 
 Conteúdo de exemplo(vídeos e links), 
 Informações do usuário logado, 
