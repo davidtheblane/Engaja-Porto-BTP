@@ -1,8 +1,6 @@
 # Engaja-Porto-BTP
 
-<a href="https://davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Projeto Hackathon dos Portos</h3></a> <br>
-
-<h3>Projeto Hackathon dos Portos</h3>
+<a href="https://davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Projeto Hackathon dos Portos</h3></a>
 <br>
 Portal de cursos para os funcionários estudarem no tempo ocioso de serviço.
 <br>
