@@ -1,4 +1,4 @@
-# Engaja-Porto-BTP
+# Projeto Hackathon dos Portos-BTP
 
 <a href="https://davidtheblane.github.io/Engaja-Porto-BTP/"><h3>Projeto Hackathon dos Portos</h3></a>
 <br>
